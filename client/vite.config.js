@@ -6,4 +6,7 @@ import dotenv from 'dotenv'
 
 export default defineConfig({
   plugins: [react()],
+  server:{
+    port:3000
+  }
 })
